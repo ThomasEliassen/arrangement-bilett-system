@@ -42,9 +42,12 @@ Passord blir lagra som salta PBKDF2-hashar.
 ![Innloggingsskjema](docs/login.png)
 
 <details>
-<summary>Vis billettbutikk etter gjennomført kjøp</summary>
+<summary>Forsøk på nytt billettkjøp etter at brukaren allereie har billett</summary>
 
-![Billettbutikk for brukar som allereie har billett](docs/ticket-shop-already-purchased.png)
+Når ein brukar som allereie har kjøpt billett opnar billettbutikken på nytt,
+blir eit nytt kjøp blokkert og den eksisterande billetten blir vist.
+
+![Nytt billettkjøp blir blokkert fordi brukaren allereie har billett](docs/ticket-shop-already-purchased.png)
 
 </details>
 
